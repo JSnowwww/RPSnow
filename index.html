@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Elemental Duel</title>
+</head>
+
+<body>
+    <center>
+        <header>
+            <h1 id="title">Welcome To Elemental Duel</h1>
+        </header>
+        <div class="container">
+            <h2 class="label">Login to Play</h2>
+            <form class="login_form" action="home.html" method="get" name="form">
+                <label for="email" class="font"><i class="fa-solid fa-user"></i></label>
+                <input autocomplete="off" type="email" name="email" class="input_box" placeholder="Email / Username">
+                <br>
+                <div id="email_error"></div>
+                <br>
+                <label for="password" class="font font2"><i class="fa-solid fa-lock"></i></label>
+                <input type="password" name="password" class="input_box" placeholder="Password">
+                <br>
+                <div id="password_error"></div>
+                <br>
+                <button type="submit" class="button">Log In</button>
+
+            </form>
+        </div>
+    </center>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
